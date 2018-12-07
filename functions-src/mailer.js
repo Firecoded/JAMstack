@@ -27,7 +27,7 @@ exports.handler = function(event, context, callbackl) {
             console.log(error);
             callback(null, {
                 statusCode: 500,
-                body: JSON.stringify(error);
+                body: JSON.stringify(error)
             });
         } else {
             callback(null, {
